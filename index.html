@@ -1,45 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <title>BookMark</title>
-</head>
-<body class="font-Poppins">
+  </head>
+  <body class="font-Poppins">
     <header>
-        <nav class="container flex items-start text-2xl py-4 mt-4 mx-28 sm:mt-12 font-bold text-black space-x-1">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYCKGSXWnNvEMt9CRrjRKgQaAFIQuMKwd1wA&usqp=CAU" class="w-10" alt="" srcset="">
-            <p>BOOKMARK</p>
-            <ul class="flex justify-end space-x-14 px-96 text-xl font-medium">
-                <li class="cursor-pointer"><button class="bg-slate-200 rounded-full px-3 py-2">Features</button></li>
-                <li class="cursor-pointer"><button class="bg-slate-200 rounded-full px-3 py-2">Contact</button></li>
-                <li class="cursor-pointer"><button class="bg-slate-200 rounded-full px-3 py-2">Pricing</button></li>
-                <!--rounded md made that rectangular cicle shaped button-->
-                <button class="cursor-pointer bg-red-500 text-white rounded-md text-sm px-7 py-3 uppercase">Login</button>
-            </ul>
-        </nav>
-        <br>
-        <main class="flex justify-around">
-            <div class="py-16 pl-5">
-                <div class="text-3xl font-semibold px-16">
-                    A SMART BOOKMARK MANAGER 
-                </div>
-                <br>
-                <div>
-                    <p class="w-1/3 pl-16">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, eius ipsam? Possimus magnam sit repellendus molestiae architecto! Voluptatem voluptate illum ducimus cumque ad delectus, consectetur cupiditate, labore neque, eligendi minus.</p>
-                </div>  
-                <div class="buttons space-y-6 pl-16">
-                    <button class="bg-slate-200 text-black rounded-md px-3 py-3 mx-2 hover:bg-blue-700">Get it on Chrome</button>
-                    <button class="bg-slate-200 text-black rounded-md px-3 py-3 mx-2 hover:bg-blue-700">Get it on Firefox</button>
-                </div>            
-                <div>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXHwPvY2vod6SPlsVWApSHk7XaUherWDXNeQ&usqp=CAU" class="w-96 h-96 mx-auto" alt="" srcset="">
-                </div>
-            </div>
-        </main>
+      <nav
+        class="container flex justify-between mx-auto text-2xl py-4 mt-4 sm:mt-12 font-bold text-black space-x-1"
+      >
+      <div class="flex items-center">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYCKGSXWnNvEMt9CRrjRKgQaAFIQuMKwd1wA&usqp=CAU"
+          class="w-10"
+          alt=""
+          srcset=""
+        />
+        <p>BOOKMARK</p>
+    </div>
+    <div class="">
+        <ul class="flex items-center space-x-8 text-xl font-medium">
+          <li class="cursor-pointer">
+            <button class="rounded-full">Features</button>
+          </li>
+          <li class="cursor-pointer">
+            <button class="rounded-full">Contact</button>
+          </li>
+          <li class="cursor-pointer">
+            <button class="rounded-full">Pricing</button>
+          </li>
+          <!--rounded md made that rectangular cicle shaped button-->
+          <li><button
+            class="cursor-pointer bg-red-500 text-white rounded-full uppercase py-3 px-5 "
+          >
+            Login
+          </button></li>
+        </ul>
+    </div>
+      </nav>
+      <br />
+      <main class="container flex justify-around py-32">
+        <div class="w-1/2">
+          <h2 class="text-3xl font-semibold mb-4">A SMART BOOKMARK MANAGER</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Nesciunt, eius ipsam? Possimus magnam sit repellendus molestiae
+              architecto! Voluptatem voluptate illum ducimus cumque ad delectus,
+              consectetur cupiditate, labore neque, eligendi minus.
+            </p>
+          <div class="buttons space-y-6 space-x-7">
+            <button
+              class="bg-blue-600 text-white rounded-full py-3 px-5 hover:bg-slate-200 hover:text-black transition ease-in-out duration-300"
+            >
+              Get it on Chrome
+            </button>
+            <button
+              class="bg-slate-200 text-black rounded-full py-3 px-5 hover:bg-blue-600 hover:text-white transition ease-in-out duration-300"
+            >
+              Get it on Firefox
+            </button>
+          </div>
+        </div>
+        <!--sm indicates small screen md means medium screen-->
+        <div class="flex justify-center">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXHwPvY2vod6SPlsVWApSHk7XaUherWDXNeQ&usqp=CAU"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </main>
     </header>
-</body>
+    <!--Features 2nd page-->
+    <!--feature-->
+    <section class="bg-slate-100 py-20">
+      <div class="text-center">
+        <h1 class="text-3xl font-bold">Features</h1>
+        <p class="mt-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et facere in
+          perspiciatis molestiae dicta perferendis eveniet? Dolor, molestiae?
+          <br />
+          Dolorem delectus ipsum est, neque sit sequi tenetur beatae
+          reprehenderit mollitia similique, aliquam, laudantium aut. Excepturi.
+        </p>
+      </div>
+      <!--feature#1-->
+      <div class="flex justify-around py-20">
+        <div class="">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGVg1iTQw2bm-G4bW55sQG1btxv_PQikzPcQ&usqp=CAU"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="w-1/3">
+          <h2 class="text-3xl mb-5 font-semibold">Bookmark in one click</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed numquam
+            tenetur dolorum corrupti! Inventore, sint officiis. Veniam quasi
+            fuga recusandae exercitationem laborum, vero aspernatur doloribus
+            suscipit aperiam nesciunt distinctio at ex quaerat vel.
+          </p>
+          <div class="button">
+            <button
+              class="bg-blue-600 text-white rounded-full py-3 hover:bg-slate-300 hover:text-black transition ease-in-out duration-300 px-5 my-5"
+            >
+              More Info
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--feature#2-->
+    <div class="flex justify-around py-16">
+      <div class="w-1/3">
+        <h2 class="text-3xl font-semibold mb-5">Intelligent search</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed numquam
+          tenetur dolorum corrupti! Inventore, sint officiis. Veniam quasi fuga
+          recusandae exercitationem laborum, vero aspernatur doloribus suscipit
+          aperiam nesciunt distinctio at ex quaerat vel.
+        </p>
+        <div class="buttons space-y-6">
+          <button
+            class="bg-blue-600 text-white rounded-full py-2 px-5 mt-6 hover:bg-slate-300 hover:text-black transition ease-in-out duration-300"
+          >
+            More Info
+          </button>
+        </div>
+      </div>
+      <div class="">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKXHdpEXRUr-6TG-ssUDx25am_FY755uSm2w&usqp=CAU"
+          alt=""
+          srcset=""
+        />
+      </div>
+      </div>
+    </section>
+  </body>
 </html>
